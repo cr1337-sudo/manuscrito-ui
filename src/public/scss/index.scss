@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+
+  color: white;
+}
+html {
+  /* 62.5% of 16px base font size is 10px */
+  font-size: 62.5%;
+  font-family: Cairo, "sans-serif";
+}
+
+.header {
+  height: calc(100vh - 105px);
+  background-color: gray;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://firebasestorage.googleapis.com/v0/b/netflix-c174a.appspot.com/o/manuscrito%2Fimagen-index.jpg?alt=media&token=f1eddf3a-1da5-4d46-ad08-cc7fcb3e9d6c");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+  h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 6.4rem;
+    font-weight: 700;
+    color: white;
+    line-height: 8.994rem;
+    .top {
+      background-color: rgb(242, 135, 5);
+      padding-left: 3.1rem;
+      padding-right: 1.1rem;
+    }
+
+    .bot {
+      font-size: 9.6rem;
+      line-height: 13.0rem;
+      margin-left: 9.2rem;
+    }
+  }
+}
