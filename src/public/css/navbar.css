@@ -6,7 +6,7 @@
   display: flex; }
   .nav .brand {
     flex: 6;
-    margin-left: 7rem;
+    margin-left: 70px;
     height: 100%;
     display: flex; }
     .nav .brand img {
@@ -19,12 +19,15 @@
     justify-content: flex-end;
     align-items: center;
     list-style: none;
-    font-size: 1.8rem;
+    font-size: 18px;
     margin: 0;
-    margin-right: 7rem; }
+    margin-right: 70px; }
     .nav .options li {
-      margin: 0 3.5rem;
+      margin: 0 35px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
       cursor: pointer;
-      padding: 0.2rem; }
+      padding: 12px; }
       .nav .options li:hover {
         border-bottom: 2px solid #F28705; }

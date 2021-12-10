@@ -1,18 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap");
+@import 'components/header' ;
+@import 'components/footer' ;
+@import 'components/midsection' ;
+@import 'base/variables' ;
+@import 'components/tienda' ;
+@import 'base/mixin' ; 
+@import 'components/socialmedia' ;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: content-box;
 
-  color: white;
-}
+
 html {
   /* 62.5% of 16px base font size is 10px */
-  font-size: 62.5%;
   font-family: Cairo, "sans-serif";
 }
 
+
+// * {
+  // margin: 1;
+  // padding: 0;
+  // box-sizing: content-box;
+// }
 .header {
   height: calc(100vh - 105px);
   background-color: gray;
@@ -27,20 +34,20 @@ html {
   h1 {
     padding: 0;
     margin: 0;
-    font-size: 6.4rem;
+    font-size: 64px;
     font-weight: 700;
     color: white;
-    line-height: 8.994rem;
+    line-height: 89.94px;
     .top {
       background-color: rgb(242, 135, 5);
-      padding-left: 3.1rem;
-      padding-right: 1.1rem;
+      padding-left: 31px;
+      padding-right: 11px;
     }
 
     .bot {
-      font-size: 9.6rem;
-      line-height: 13.0rem;
-      margin-left: 9.2rem;
+      font-size: 96px;
+      line-height: 130px;
+      margin-left: 92px;
     }
   }
 }
