@@ -1,21 +1,22 @@
-
 .nav {
   height: 105px;
   width: 100%;
   background-color: #050505;
   color: white;
   display: flex;
+  position: fixed;
 
   .brand {
     flex: 6;
     margin-left: 70px;
     height: 100%;
     display: flex;
-    img{
+
+    img {
       align-self: center;
     }
   }
-  .options {
+  .nav-menu {
     height: 100%;
     display: flex;
     flex: 6;
@@ -27,18 +28,82 @@
     margin: 0;
     margin-right: 70px;
 
-    li{
-      margin: 0 35px;
-  overflow: hidden; 
-  text-overflow: ellipsis;
-  white-space: nowrap;
+    .nav-item {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
       cursor: pointer;
       padding: 12px;
 
-      &:hover{
-        border-bottom: 2px solid #F28705;
+      &:hover {
+        border-bottom: 2px solid #f28705;
       }
     }
-
   }
 }
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: white;
+  }
+}
+
+@media (max-width: 935px) {
+  .hamburger {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 70px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: -100%;
+    gap: 0;
+    background-color: inherit;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    display: none;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+    font-size: 22px;
+    padding: 18px;
+  }
+
+  .nav-menu.active {
+    height: 400px;
+    top: 105px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav{
+  .brand {
+    margin-left: 20px;
+  }
+}
+  }

@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch src/public/scss/ -o src/public/css -w"
+    "scss": "node-sass --watch src/public/scss/ -o src/public/css -w",
+    "dev":"nodemon src/index.js"
   },
   "keywords": [],
   "author": "",

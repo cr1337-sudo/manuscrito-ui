@@ -1,267 +1,304 @@
-@import '../base/variables' ; 
-@import '../base/mixin' ; 
-
-
-
-
-
+@import "../base/variables";
+@import "../base/mixin";
 
 /* QUE ES MANUSCRITO */
 
-.firstText{
-    padding-top: 70px;
+.manuscrito-container {
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.firstText {
+  padding-top: 50px;
+  height: auto;
 }
 
 .borderOrange {
-    border-bottom: 3px solid $orange-color;
+  border-bottom: 3px solid $orange-color;
 }
 
 .innerText1 {
-    padding-top: 40px;
-    width: 400px;
-    height: 343px;
+  padding-top: 40px;
+  width: 400px;
+  min-height: 343px;
 }
 .innerText2 {
-    width: 400px;
-    height: 343px;
+  padding-top: 40px;
+  width: 400px;
+  min-height: 343px;
 }
 
-.subTitle1{
-    font-family: Cairo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 67px;
+.subTitle1 {
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 67px;
 }
 
-.text1{
-    padding-top: 60px;
-    font-family: Zen Kurenaido;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 35px;
+.text1 {
+  padding-top: 30px;
+  font-family: Zen Kurenaido;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
 }
-.text2{
-    font-family: Zen Kurenaido;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 35px;
+.text2 {
+  font-family: Zen Kurenaido;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 35px;
 }
-
 
 /* Primer divisor */
 
-
 .divider1 {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 20px;
-    background-color: $orange-color;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  background-color: $orange-color;
 }
 
-
 .title1 {
-
-    text-align: center;
-    font-family: Cairo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    color: white;
-    margin-top: 40px;
+  text-align: center;
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  margin-top: 40px;
 }
 
 .autor {
-    font-family: Cairo;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 24px;
-    color: white;
-    text-align: end;
-    margin-right: 1.5rem;
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  color: white;
+  text-align: end;
+  margin-right: 1.5rem;
 }
-
 
 /* Seccion de recomendaciones de alumnos */
 
-
-.parrafosIndex{
-    display: flex;
-    justify-content: space-between;
-    margin: 80px;
-
+.parrafosIndex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow-y:scroll;
 }
 
 .title2 {
-    margin: 40px 0px;
-    font-family: Cairo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 67px;
-    color: #000000;
-    text-align: center;
+  margin: 40px 0px;
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 67px;
+  color: #000000;
+  text-align: center;
 }
 
-
-.nombreAlumno{
-    font-family: Cairo;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 45px;
-    text-align: center;
+.nombreAlumno {
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 45px;
+  text-align: center;
 }
-
 
 .textContainer {
-    margin: 20px;
+  margin: 20px;
 }
 
-
-.experienciaAlumnos{
-    font-family: Cairo;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 30px;  
-    text-align: start;
+.experienciaAlumnos {
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  text-align: start;
 }
 .alumno {
-    background: #FFFFFF;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
-    width: 317px;
-    height: 283.78px;
+  background: #ffffff;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  width: 317px;
+  height: 283.78px;
 }
 
 .imgAlumno {
-    width: 61.03px;
-    height: 61.03px;
-    border-radius: 50%;
-    margin-left: 5px;
+  width: 61.03px;
+  height: 61.03px;
+  border-radius: 50%;
+  margin-left: 5px;
 }
-
 
 /* Educacion online a tu alcance */
 
-
 .title3 {
-    font-family: Cairo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 120px;
-    text-align: center;
-    margin: 40px 0px;
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120px;
+  text-align: center;
+  margin: 40px 15px;
 }
 
 .subtitle3 {
-    font-family: Cairo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 30px;
-    color: white;
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 30px;
+  color: white;
 }
 .subtitle4 {
-    font-family: Cairo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 30px;
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 30px;
 }
 
 .socaloDescriptivo1 {
-    font-family: Zen Kurenaido;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
-    color: white;
+  font-family: Zen Kurenaido;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: white;
 }
 
 .socaloDescriptivo2 {
-    font-family: Zen Kurenaido;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 23px;
-    
+  font-family: Zen Kurenaido;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
 }
 
 .texto1 {
-    width: 100%;
-    height: 462px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: $orange-color;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $orange-color;
 }
 
 .texto2 {
-    width: 100%;
-    height: 462px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 15px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .imagen {
-    width: 470px;
-    height: 360px;
+  width: 470px;
+  // width: 10%;
+  height: 360px;
+  object-fit: contain;
 }
 
 .imgBox {
-    margin: 0 6px;
-
+  margin: 0 6px;
 }
 .textBox {
-    margin: 0 6px;
-    width: 470px;
-    height: 360px;
+  // margin: 0 6px;
+  width: 470px;
+  height: 100%;
 }
-
 
 /* BOTON DE VER CURSOS */
 
 .buttonStyle {
-    background-color: $brown-color !important;
-    border: 1px black;
-    width: 197px;
-    height: 55px;
-    font-size: 24px;
+  background-color: $brown-color !important;
+  border: 1px black;
+  width: 197px;
+  height: 55px;
+  font-size: 24px;
 }
 .buttonContainer {
-    margin: 80px 0 ;
+  margin: 80px 0;
 }
 
 /* BOTONES DE REDES SOCIALES */
 
-
-.iconContainer{
-    width: 1030px;
-    height: 76px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.iconContainer {
+  width: 100%;
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .lineOrange {
-    margin: 20px 60px;
-    width: 1630px;
-    height: 76px;
-    border-bottom: 2px solid $orange-color;
-    border-top: 2px solid $orange-color;
+  margin: 20px 60px;
+  width: 100%;
+  height: 76px;
+  border-bottom: 2px solid $orange-color;
+  border-top: 2px solid $orange-color;
 }
 
 .icono {
+  width: 50px;
+  height: 50px;
+}
 
-    width: 50px;
-    height: 50px;
+@media (max-width: 992px) {
+  .manuscrito-container {
+    padding-right: 44px;
+    padding-left: 44px;
+  }
 
+  .texto1{
+    .row {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      .imgBox {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+      }
+    }
+  }
+  .texto2 {
+    .row {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      .imgBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+    }
+  }
+  .textBox {
+    width: 100%;
+    padding: 20px;
+  }
+  h2{
+    text-align: center;
+  }
+
+  .row{
+    margin: 0;
+  }
+}
+
+@media (max-width:500px){
+  .imagen{
+    width: 100%;
+  }
 }

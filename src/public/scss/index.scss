@@ -9,17 +9,19 @@
 
 
 
+
 html {
   /* 62.5% of 16px base font size is 10px */
   font-family: Cairo, "sans-serif";
+  overflow-y: scroll;
 }
 
 
-// * {
-  // margin: 1;
+* {
+  // margin: 0;
   // padding: 0;
   // box-sizing: content-box;
-// }
+}
 .header {
   height: calc(100vh - 105px);
   background-color: gray;
