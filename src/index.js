@@ -13,6 +13,10 @@ hbs.registerPartials(path.join(__dirname, "views/partials"), function () {});
 app.get("/", (req, res) => {
   res.render("index");
 });
+
+app.get("/contacto", (req,res)=>{
+  res.render("contacto")
+})
 app.listen(process.env.PORT || 8080, () => {
   console.log("Server running");
 });
