@@ -25,8 +25,9 @@ html {
 .header {
   height: calc(100vh - 105px);
   background-color: gray;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://firebasestorage.googleapis.com/v0/b/netflix-c174a.appspot.com/o/manuscrito%2Fimagen-index.jpg?alt=media&token=f1eddf3a-1da5-4d46-ad08-cc7fcb3e9d6c");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/imagenes/imagen-index.jpg");
+
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;

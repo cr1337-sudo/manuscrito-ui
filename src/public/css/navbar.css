@@ -5,7 +5,8 @@
   color: white;
   display: flex;
   position: sticky;
-  top: 0px; }
+  top: 0px;
+  z-index: 2; }
   .nav .brand {
     flex: 6;
     margin-left: 70px;
@@ -23,15 +24,17 @@
     list-style: none;
     font-size: 18px;
     margin: 0;
-    margin-right: 70px; }
+    margin-right: 70px;
+    z-index: 2; }
     .nav .nav-menu .nav-item {
       overflow: hidden;
       margin: 0px 10px;
       text-overflow: ellipsis;
       white-space: nowrap;
       cursor: pointer;
-      padding: 12px; }
-      .nav .nav-menu .nav-item:hover {
+      padding: 12px;
+      z-index: .nav .nav-menu .nav-item; }
+      .nav .nav-menu .nav-item :hover {
         border-bottom: 2px solid #f28705; }
 
 .hamburger {

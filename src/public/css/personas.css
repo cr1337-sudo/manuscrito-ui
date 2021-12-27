@@ -1,0 +1,241 @@
+/* TITULO Y SUBTITULO */
+header {
+  height: 346px;
+  width: 100%;
+  background-color: gray;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/imagenes/imagen-index.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  header h2 {
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 8px;
+    line-height: 135px; }
+    header h2 span {
+      padding-left: 51px;
+      border-bottom: 4px solid #f28705; }
+
+.titleContainer {
+  padding-top: 2%; }
+
+.borderOrange {
+  border-bottom: 5px solid #f28705; }
+
+.title5 {
+  text-align: center;
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 77px;
+  color: #000000; }
+
+.subtitlePosition {
+  padding-bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.subtitleContainer {
+  width: 55%;
+  height: 10%; }
+
+.subtitle3 {
+  text-align: left;
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 40px;
+  color: black; }
+
+.spanManuscrito {
+  font-family: Zen Kurenaido;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 52px;
+  color: #f28705; }
+
+/* SECCION BEIGE */
+.seccionBeige {
+  padding: 5%;
+  padding-left: 0;
+  width: 100%;
+  background-color: #f2dbae; }
+
+.secciones-container {
+  display: flex; }
+
+.seccion1 {
+  width: 50%; }
+  .seccion1 .top {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; }
+    .seccion1 .top .right img {
+      width: auto; }
+    .seccion1 .top .left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%; }
+      .seccion1 .top .left img {
+        align-self: flex-end;
+        margin-right: 32px; }
+      .seccion1 .top .left .ariel-bgorange {
+        background-color: #f28705;
+        font-size: Cairo;
+        font-weight: 600;
+        font-size: 42px;
+        color: white;
+        text-align: right;
+        padding-right: 10px;
+        margin-right: 0; }
+  .seccion1 .bot {
+    display: flex;
+    justify-content: flex-end; }
+    .seccion1 .bot img {
+      margin-top: 12px;
+      margin-left: 7px; }
+      .seccion1 .bot img:first-child {
+        margin-left: 0; }
+
+.rowContainer1 {
+  display: flex;
+  align-items: flex-start;
+  align-content: flex-start; }
+
+.fotoAriel {
+  width: 100%;
+  height: 336px; }
+
+.tapaLibro {
+  width: 177px;
+  height: 246px; }
+
+.seccion2 {
+  width: 50%;
+  margin: 0% 2%; }
+
+.arielDescripcion {
+  text-align: left;
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 37px; }
+
+/* BOTON VER MAS  */
+.buttonStylePersonas {
+  background-color: #bf9765 !important;
+  border: 1px black;
+  width: 250px;
+  height: 55px;
+  font-size: 24px;
+  border-radius: 0%;
+  padding-top: 0.1%; }
+
+.buttonContainerPersonas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0; }
+
+/* SECCION PROFESORES */
+.profesorSection {
+  margin: 5% 0%; }
+
+.titleContainer {
+  padding: 4%; }
+
+.title6 {
+  text-align: center;
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 77px;
+  color: #000000; }
+
+.profesorContainer {
+  margin: 2.5% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.imgProfesor {
+  border-radius: 100%;
+  width: 50%;
+  height: 50%; }
+
+.profesorDescription {
+  padding: 4% 0%;
+  width: 75%;
+  height: 70%; }
+
+.profesorTitle {
+  padding: 4% 0%;
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center; }
+
+.profesorParagraph {
+  font-family: Zen Kurenaido;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 37px;
+  text-align: center; }
+
+.iconContainer {
+  width: 100%;
+  height: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 125px; }
+
+.lineOrange {
+  margin: 20px 60px;
+  width: 100%;
+  height: 76px;
+  border-bottom: 2px solid #f28705;
+  border-top: 2px solid #f28705; }
+
+.icono {
+  width: 50px;
+  height: 50px; }
+
+@media (max-width: 1000px) {
+  header {
+    height: 180px; } }
+
+@media (max-width: 1300px) {
+  .seccionBeige {
+    padding-right: 15px; } }
+
+@media (max-width: 1200px) {
+  .secciones-container {
+    flex-direction: column;
+    padding: 0 auto;
+    justify-content: center;
+    align-items: center; }
+    .secciones-container .seccion1 {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 30px; }
+      .secciones-container .seccion1 .top, .secciones-container .seccion1 .bot {
+        justify-content: center; }
+        .secciones-container .seccion1 .top .left, .secciones-container .seccion1 .bot .left {
+          width: auto; }
+    .secciones-container .seccion2 {
+      width: 100%;
+      padding: 18px; } }

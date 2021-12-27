@@ -17,6 +17,13 @@ app.get("/", (req, res) => {
 app.get("/contacto", (req,res)=>{
   res.render("contacto")
 })
+app.get("/personas", (req,res)=>{
+  res.render("personas")
+})
+
+app.get("/cursos", (req,res)=>{
+  res.render("cursos")
+})
 app.listen(process.env.PORT || 8080, () => {
   console.log("Server running");
 });

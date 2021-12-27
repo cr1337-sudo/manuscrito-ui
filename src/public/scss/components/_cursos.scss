@@ -1,0 +1,173 @@
+@import '../base/variables' ; 
+@import '../base/mixin' ; 
+
+
+
+
+/* TITULO */
+
+.title4 {
+    margin: 4% 0%;
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 67px;
+    color: #000000;
+    text-align: center;
+}
+
+
+/* SEPARADOR ESCRITURA NARRATIVA */
+
+.separadorContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.separador {
+    width: 62%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitle2 {
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    padding-top: 0.5%;
+}
+
+
+
+/* CARDS */
+
+.row>* {
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+.cardH2{
+    display: flex;
+    text-align: center;
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+
+    color: #FFFFFF;
+}
+
+.card-title {
+    margin: 1% 4%;
+    padding-bottom: 3%;
+}
+.card-text {
+    margin: 2% 4%;
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #000000;
+}
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.cursosCard { 
+    width:  65%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 20px;
+}
+
+.card-header {
+    padding: 1.5% 1% 1% 1.5%;
+    background-color: #F28705;
+    display: flex;
+    align-items: center;
+}
+
+
+/* ACCORDIONS */
+
+.accordionStyle{
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #F2DBAE;
+
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color:  #BF9765;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(117, 75, 27, 0.25);
+}
+
+.accordion-body1 {
+    padding: 2% 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.accordion-body2 {
+    padding: 2% 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.listStyle {
+    font-family: Cairo;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+
+/* BOTON DE INSCRIPCION  */
+
+.buttonStyleCursos {
+    background-color: #BF9765 !important;
+    border: 1px black;
+    width: 250px;
+    height: 55px;
+    font-size: 24px;
+    border-radius: 0%;
+    padding-top: 0.1%;
+}
+
+.buttonContainer {
+    margin: 100px 0 ;
+}

@@ -1,25 +1,28 @@
+
 header {
   height: 346px;
+  width: 100%;
   background-color: gray;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://firebasestorage.googleapis.com/v0/b/netflix-c174a.appspot.com/o/manuscrito%2Fimagen-index.jpg?alt=media&token=f1eddf3a-1da5-4d46-ad08-cc7fcb3e9d6c");
-  background-position: bottom center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/imagenes/imagen-index.jpg");
+  background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
 
-  h1 {
-    color: white;
-    display: inline;
-    font-family: Cairo;
+  h2{
     font-size: 72px;
     font-weight: bold;
-    margin: 0;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 8px;
     line-height: 135px;
-    padding-left: 60px;
-    border-bottom: 3px solid #f28705;
+    span{
+      padding-left: 51px;
+  border-bottom: 4px solid #f28705;
+    }
+
   }
 }
-
 main {
   margin: 0 79px;
   display: flex;
@@ -123,4 +126,10 @@ main {
     }
   }
   
+}
+
+@media(max-width:1000px){
+  header{
+    height: 180px;
+  }
 }
