@@ -70,8 +70,7 @@ main {
   height: 76px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 0 125px; }
+  align-items: center; }
 
 .lineOrange {
   margin: 20px 60px;

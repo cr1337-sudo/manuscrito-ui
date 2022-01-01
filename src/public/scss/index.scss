@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap");
-@import 'components/header' ;
-@import 'components/footer' ;
+@import 'components/header' ; @import 'components/footer' ;
 @import 'components/midsection' ;
 @import 'base/variables' ;
 @import 'components/tienda' ;
@@ -53,4 +52,9 @@ html {
       margin-left: 92px;
     }
   }
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }

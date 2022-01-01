@@ -4,7 +4,7 @@
   background-color: #050505;
   color: white;
   display: flex;
-  position:sticky;
+  position: sticky;
   top: 0px;
   z-index: 2;
   .brand {
@@ -28,6 +28,10 @@
     font-size: 18px;
     margin: 0;
     margin-right: 70px;
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
 
     .nav-item {
       overflow: hidden;
@@ -103,9 +107,12 @@
 }
 
 @media (max-width: 600px) {
-  .nav{
-  .brand {
-    margin-left: 20px;
+  .nav {
+    .brand {
+      margin-left: 5px;
+    }
+    .hamburger{
+      margin-right: 15px;
+    }
   }
 }
-  }
