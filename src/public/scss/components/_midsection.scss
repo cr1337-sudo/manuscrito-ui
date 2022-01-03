@@ -85,11 +85,20 @@
 
 /* Seccion de recomendaciones de alumnos */
 
+.seccionIndex2{
+  justify-content: center;
+  align-items: center;
+}
 .parrafosIndex {
+  margin-left: auto;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  align-items: center;
   overflow-y:scroll;
+  .alumnos-cont{
+    width: 100% !important;
+    margin: 0 !important;
+  }
 }
 
 .title2 {
@@ -307,6 +316,9 @@
 
   .title3{
     font-size: 32px;
+  }
+  .subTitle1{
+    font-size:30px !important ;
   }
 }
 

@@ -36,7 +36,7 @@ header {
   font-family: Cairo;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 36px !important;
   line-height: 77px;
 
   color: #000000;
@@ -49,7 +49,7 @@ header {
   justify-content: center;
 }
 .subtitleContainer {
-  width: 55%;
+  width: 80%;
   height: 10%;
 }
 
@@ -76,13 +76,14 @@ header {
 /* SECCION BEIGE */
 
 .seccionBeige {
-  padding: 5%;
   padding-left: 0;
   width: 100%;
   background-color: #f2dbae;
+  padding-right: 0 !important;
 }
 .secciones-container {
   display: flex;
+  width: 100%;
 }
 .seccion1 {
   width: 50%;
@@ -266,6 +267,12 @@ header {
   header {
     height: 180px;
   }
+  .buttonContainerPersonas{
+    margin: 20px 0;
+  }
+  .seccionBeige{
+    background: transparent;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -302,20 +309,64 @@ header {
 }
 
 @media (max-width: 800px) {
-  h2{
+  h2 {
     font-size: 45px !important;
   }
-  span{
+  span {
     padding-left: 20px !important;
   }
-
 }
 
-@media (max-width:500px){
-  h2{
+@media (max-width: 600px) {
+  .seccion1 {
+    .top {
+      width: auto;
+      height: auto;
+      img {
+        max-width: 99%;
+        height: auto;
+      }
+      .left {
+        img {
+          margin-right: auto;
+        }
+        p {
+          font-size: 35px !important;
+        }
+      }
+    }
+    .bot {
+      img {
+        width: 80%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .seccion1 {
+    .top {
+      .left {
+        p {
+          font-size: 23px !important;
+        }
+      }
+    }
+  }
+  h2 {
     font-size: 32px !important;
   }
-  span{
+  span {
     padding-left: 10px !important;
+  }
+  .title5 {
+    font-size: 25px !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .title5 {
+    font-size: 30px !important;
   }
 }

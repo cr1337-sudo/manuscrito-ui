@@ -71,11 +71,19 @@
   margin-right: 1.5rem; }
 
 /* Seccion de recomendaciones de alumnos */
+.seccionIndex2 {
+  justify-content: center;
+  align-items: center; }
+
 .parrafosIndex {
+  margin-left: auto;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  align-items: center;
   overflow-y: scroll; }
+  .parrafosIndex .alumnos-cont {
+    width: 100% !important;
+    margin: 0 !important; }
 
 .title2 {
   margin: 40px 0px;
@@ -251,7 +259,9 @@
   .title2 {
     font-size: 28px; }
   .title3 {
-    font-size: 32px; } }
+    font-size: 32px; }
+  .subTitle1 {
+    font-size: 30px !important; } }
 
 html {
   /* 62.5% of 16px base font size is 10px */
@@ -273,11 +283,16 @@ html {
     font-size: 64px;
     font-weight: 700;
     color: white;
-    line-height: 89.94px; }
+    line-height: 89.94px;
+    display: block; }
     .header h1 .top {
       background-color: #f28705;
       padding-left: 31px;
-      padding-right: 11px; }
+      padding-right: 11px;
+      overflow: hidden;
+      width: auto;
+      white-space: nowrap;
+      animation: write 3s; }
     .header h1 .bot {
       font-size: 96px;
       line-height: 130px;
@@ -299,3 +314,9 @@ a {
     padding-left: 15px !important; }
   h1 .bot {
     margin-left: 10px !important; } }
+
+@keyframes write {
+  0% {
+    width: 0%; }
+  100% {
+    width: 100%; } }

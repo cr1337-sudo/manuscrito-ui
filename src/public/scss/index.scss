@@ -37,10 +37,15 @@ html {
     font-weight: 700;
     color: white;
     line-height: 89.94px;
+    display: block;
     .top {
       background-color: rgb(242, 135, 5);
       padding-left: 31px;
       padding-right: 11px;
+      overflow: hidden;
+      width: auto;
+      white-space: nowrap;
+      animation: write 3s;
     }
 
     .bot {
@@ -74,5 +79,15 @@ a {
     .bot {
       margin-left: 10px !important;
     }
+  }
+}
+
+
+@keyframes write{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 100%;
   }
 }
