@@ -231,10 +231,24 @@ header {
       width: 100%;
       padding: 10px;
       margin-bottom: 30px; }
-      .secciones-container .seccion1 .top, .secciones-container .seccion1 .bot {
+      .secciones-container .seccion1 .top,
+      .secciones-container .seccion1 .bot {
         justify-content: center; }
-        .secciones-container .seccion1 .top .left, .secciones-container .seccion1 .bot .left {
+        .secciones-container .seccion1 .top .left,
+        .secciones-container .seccion1 .bot .left {
           width: auto; }
     .secciones-container .seccion2 {
       width: 100%;
       padding: 18px; } }
+
+@media (max-width: 800px) {
+  h2 {
+    font-size: 45px !important; }
+  span {
+    padding-left: 20px !important; } }
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 32px !important; }
+  span {
+    padding-left: 10px !important; } }

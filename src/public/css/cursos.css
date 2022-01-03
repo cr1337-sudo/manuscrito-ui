@@ -37,7 +37,7 @@ header {
   flex-direction: row-reverse; }
 
 .separador {
-  width: 62%;
+  width: auto;
   background-color: black;
   display: flex;
   align-items: center;
@@ -47,12 +47,14 @@ header {
   font-family: Cairo;
   font-style: normal;
   font-weight: 600;
-  font-size: 52px;
+  font-size: 42px;
   display: flex;
   align-items: center;
   text-align: center;
   color: #ffffff;
-  padding-top: 0.5%; }
+  padding-top: 0.5%;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 /* CARDS */
 .row > * {
@@ -82,6 +84,7 @@ header {
   color: #000000; }
 
 .cardsContainer {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,3 +228,15 @@ header {
     font-size: 25px; }
   header {
     height: 180px; } }
+
+@media (max-width: 800px) {
+  h2 {
+    font-size: 45px !important; }
+  span {
+    padding-left: 20px !important; } }
+
+@media (max-width: 500px) {
+  h2 {
+    font-size: 32px !important; }
+  span {
+    padding-left: 10px !important; } }

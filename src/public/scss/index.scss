@@ -1,20 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap");
-@import 'components/header' ; @import 'components/footer' ;
-@import 'components/midsection' ;
-@import 'base/variables' ;
-@import 'components/tienda' ;
-@import 'base/mixin' ; 
-@import 'components/socialmedia' ;
-
-
-
+@import "components/header";
+@import "components/footer";
+@import "components/midsection";
+@import "base/variables";
+@import "components/tienda";
+@import "base/mixin";
+@import "components/socialmedia";
 
 html {
   /* 62.5% of 16px base font size is 10px */
   font-family: Cairo, "sans-serif";
   overflow-y: scroll;
 }
-
 
 * {
   // margin: 0;
@@ -54,7 +51,28 @@ html {
   }
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
+}
+
+@media (max-width: 710px) {
+  .top {
+    font-size: 25px !important;
+  }
+  .bot {
+    font-size: 35px !important;
+    margin-left: 10px !important;
+  }
+}
+
+@media (max-width: 850px) {
+  h1 {
+    .top {
+      padding-left: 15px !important;
+    }
+    .bot {
+      margin-left: 10px !important;
+    }
+  }
 }

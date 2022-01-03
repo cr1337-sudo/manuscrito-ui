@@ -132,3 +132,22 @@ main {
     height: 180px;
   }
 }
+
+@media (max-width: 800px) {
+  h2{
+    font-size: 45px !important;
+  }
+  span{
+    padding-left: 20px !important;
+  }
+
+}
+
+@media (max-width:500px){
+  h2{
+    font-size: 32px !important;
+  }
+  span{
+    padding-left: 10px !important;
+  }
+}

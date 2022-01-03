@@ -247,7 +247,11 @@
 
 @media (max-width: 500px) {
   .imagen {
-    width: 100%; } }
+    width: 100%; }
+  .title2 {
+    font-size: 28px; }
+  .title3 {
+    font-size: 32px; } }
 
 html {
   /* 62.5% of 16px base font size is 10px */
@@ -282,3 +286,16 @@ html {
 a {
   text-decoration: none;
   color: inherit; }
+
+@media (max-width: 710px) {
+  .top {
+    font-size: 25px !important; }
+  .bot {
+    font-size: 35px !important;
+    margin-left: 10px !important; } }
+
+@media (max-width: 850px) {
+  h1 .top {
+    padding-left: 15px !important; }
+  h1 .bot {
+    margin-left: 10px !important; } }

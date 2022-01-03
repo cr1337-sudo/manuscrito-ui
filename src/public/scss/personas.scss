@@ -11,18 +11,17 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 
-  h2{
+  h2 {
     font-size: 72px;
     font-weight: bold;
     color: white;
     padding-top: 25px;
     padding-bottom: 8px;
     line-height: 135px;
-    span{
+    span {
       padding-left: 51px;
-  border-bottom: 4px solid #f28705;
+      border-bottom: 4px solid #f28705;
     }
-
   }
 }
 
@@ -82,9 +81,8 @@ header {
   width: 100%;
   background-color: #f2dbae;
 }
-.secciones-container{
+.secciones-container {
   display: flex;
-
 }
 .seccion1 {
   width: 50%;
@@ -264,40 +262,60 @@ header {
   height: 50px;
 }
 
-@media(max-width:1000px){
-  header{
+@media (max-width: 1000px) {
+  header {
     height: 180px;
   }
 }
 
-@media(max-width:1300px){
-  .seccionBeige{
+@media (max-width: 1300px) {
+  .seccionBeige {
     padding-right: 15px;
   }
 }
 
-@media(max-width:1200px){
-  .secciones-container{
+@media (max-width: 1200px) {
+  .secciones-container {
     flex-direction: column;
     padding: 0 auto;
     justify-content: center;
-    align-items:center ;
+    align-items: center;
 
-    .seccion1{
+    .seccion1 {
       width: 100%;
       padding: 10px;
       margin-bottom: 30px;
-      .top,.bot{
+      .top,
+      .bot {
         justify-content: center;
-        .left{
+        .left {
           width: auto;
         }
       }
     }
 
-    .seccion2{
+    .seccion2 {
       width: 100%;
       padding: 18px;
     }
+  }
+}
+
+@media (max-width: 800px) {
+  h2{
+    font-size: 45px !important;
+  }
+  span{
+    padding-left: 20px !important;
+  }
+
+}
+
+@media (max-width:500px){
+  h2{
+    font-size: 32px !important;
+  }
+  span{
+    padding-left: 10px !important;
   }
 }
